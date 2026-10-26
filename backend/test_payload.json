@@ -1,0 +1,14 @@
+{
+  "Rotor speed (RPM)": 14.78089825809002,
+  "Rotor speed, Min (RPM)": 13.6029517650604,
+  "Rotor speed, Max (RPM)": 15.3005415201187,
+  "Blade angle (pitch position) C (\u00b0)": 0.0,
+  "Blade angle (pitch position) A (\u00b0)": 0.0,
+  "Blade angle (pitch position) B (\u00b0)": 0.0,
+  "Temperature motor axis 1 (\u00b0C)": 53.25499992370605,
+  "Blade angle (pitch position) C, Max (\u00b0)": 0.0,
+  "Density adjusted wind speed (m/s)": 8.169106686723394,
+  "Wind speed (m/s)": 8.069144225120546,
+  "Wind speed Sensor 1 (m/s)": 8.03793761730194,
+  "Temperature motor axis 3, StdDev (\u00b0C)": 6.673633034119018
+}

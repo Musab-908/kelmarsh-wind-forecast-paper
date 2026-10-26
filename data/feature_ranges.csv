@@ -1,0 +1,13 @@
+,min,max
+Rotor speed (RPM),0.0,15.3432010710239
+"Rotor speed, Min (RPM)",0.0,15.2214020490646
+"Rotor speed, Max (RPM)",0.0,16.6100531816483
+Blade angle (pitch position) C (°),-170.11999511718798,94.6989279352875
+Blade angle (pitch position) A (°),-170.11999511718798,92.9000015258789
+Blade angle (pitch position) B (°),-170.16999816894497,94.3949219185602
+Temperature motor axis 1 (°C),6.0,215.0
+"Blade angle (pitch position) C, Max (°)",-170.119995117188,95.9199981689453
+Density adjusted wind speed (m/s),0.1425106768360037,24.10281258691402
+Wind speed (m/s),0.1419003680348396,24.2590686798096
+Wind speed Sensor 1 (m/s),-0.7614551343415911,25.2547982215881
+"Temperature motor axis 3, StdDev (°C)",0.0,99.44928355699702

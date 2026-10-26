@@ -1,0 +1,32 @@
+<main class="shell">
+  <header>
+    <h1>Wind-Turbine Power Forecast</h1>
+    <p>XGBoost regression teaching prototype</p>
+  </header>
+  @if (deployedStatic) {
+    <aside class="notice">Static GitHub Pages demonstration only. Predictions require Flask and Angular locally.</aside>
+  }
+  <form (ngSubmit)="submit()">
+    <h2>Model input features ({{fields.length}})</h2>
+    <div class="grid">
+      @for (field of fields; track field.name) {
+        <label>{{field.label}}
+          <input type="number" step="any" [name]="field.name"
+            [min]="field.min ?? null" [max]="field.max ?? null"
+            [(ngModel)]="values[field.name]" [required]="field.required" />
+        </label>
+      }
+    </div>
+    <button type="submit" [disabled]="loading || deployedStatic">
+      {{loading ? 'Predicting...' : 'Run local prediction'}}
+    </button>
+  </form>
+  @if (error) { <p class="error" role="alert">{{error}}</p> }
+  @if (result) {
+    <section class="result">
+      <h2>Predicted power</h2>
+      <p class="prediction">{{result.prediction}}</p>
+      <p>{{result.disclaimer}}</p>
+    </section>
+  }
+</main>
